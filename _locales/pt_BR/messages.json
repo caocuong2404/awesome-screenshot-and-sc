@@ -1,0 +1,481 @@
+﻿{
+    "extName": {
+        "message": "Captura de tela e gravador de tela impressionantes",
+        "description": "Extension name."
+    },
+    "extDesc": {
+        "message": "O melhor gravador de tela e ferramenta de captura e anotação de tela para trabalho remoto.",
+        "description": "Extension description."
+    },
+    "visible": {
+        "message": "Visible Part",
+        "description": "Popup menu"
+    },
+    "selected": {
+        "message": "Selected Area"
+    },
+    "entire": {
+        "message": "Full Page",
+        "description": "Popup menu"
+    },
+    "delay": {
+        "message": "Visible Part after Delay",
+        "description": "Popup menu"
+    },
+    "upload": {
+        "message": "Annotate Local & Clipboard Image",
+        "description": "Popup menu"
+    },
+    "desktop": {
+        "message": "Entire Screen & App Window",
+        "description": "Popup menu"
+    },
+    "tab_title_record": {
+        "message": "Record",
+        "description": "Popup menu"
+    },
+    "tab_title_capture": {
+        "message": "Capture",
+        "description": "Popup menu"
+    },
+    "record_desktop": {
+        "message": "Desktop",
+        "description": "Popup menu"
+    },
+    "record_tab": {
+        "message": "This Tab",
+        "description": "Popup menu"
+    },
+    "custom_record": {
+        "message": "Custom<br>(This Tab)",
+        "description": "Popup menu"
+    },
+    "record_cam": {
+        "message": "Cam Only",
+        "description": "Popup menu"
+    },
+    "record_location_title": {
+        "message": "Save video to",
+        "description": "Popup menu"
+    },
+    "record_location_cloud": {
+        "message": "Cloud",
+        "description": "Popup menu"
+    },
+    "record_location_local": {
+        "message": "Local",
+        "description": "Popup menu"
+    },
+    "record_mic_title": {
+        "message": "Microphone",
+        "description": "Popup menu"
+    },
+    "grant_access": {
+        "message": "Grant Access",
+        "description": "Popup menu"
+    },
+    "record_camera_title": {
+        "message": "Embed Camera",
+        "description": "Popup menu"
+    },
+    "record_camera_only_title": {
+        "message": "Camera",
+        "description": "Popup menu"
+    },
+    "record_resolution_title": {
+        "message": "Max Resolution",
+        "description": "Popup menu"
+    },
+    "record_tab_sound_title": {
+        "message": "Tab Sound",
+        "description": "Popup menu"
+    },
+    "record_toolbar_title": {
+        "message": "Show Annotation Tools",
+        "description": "Popup menu"
+    },
+    "ctl_bar_title": {
+        "message": "Control Bar",
+        "description": "Popup menu"
+    },
+    "hide_ctl_bar": {
+        "message": "Hide Control Bar",
+        "description": "Popup menu"
+    },
+    "show_ctl_bar": {
+        "message": "Show Control Bar",
+        "description": "Popup menu"
+    },
+    "auto_tab_tip": {
+        "message": "The Mic is off & tab sound is on to avoid echoes while recording. Turn on Mic if needed.",
+        "description": "Popup menu"
+    },
+    "video_cloud_tip": {
+        "message": "Switch to 'Cloud' for instant sharing",
+        "description": "Popup menu"
+    },
+    "capture_cloud_tip": {
+        "message": "Switch to 'Cloud' to capture screenshot and URL",
+        "description": "Popup menu"
+    },
+    "minu_limit_tip": {
+        "message": "(5 minutes limit)",
+        "description": "Popup menu"
+    },
+    "record_start": {
+        "message": "Start Recording",
+        "description": "Popup menu"
+    },
+    "record_local_tip": {
+        "message": "Up to <b>5 minutes</b> per video. <a target='_blank' href='https://www.awesomescreenshot.com/pricing?from=extMenu5min' >Upgrade</a > to unlock the limit.",
+        "description": "Popup menu"
+    },
+    "record_try_tip": {
+        "message": "Enjoy all premium features for first 20 videos. <a target='_blank' href='https://www.awesomescreenshot.com/pricing?from=aws-upgrade' >Upgrade</a > or <a target='_blank' href='https://www.awesomescreenshot.com/invite?from=aws-video'>Refer</a> friends to get Professional plan",
+        "description": "Popup menu"
+    },
+    "record_try_tip_image": {
+        "message": "<a target='_blank' href='https://www.awesomescreenshot.com/pricing?from=aws-upgrade' >Upgrade</a > or <a target='_blank' href='https://www.awesomescreenshot.com/invite?from=aws-imge'>Refer</a> friends to get free Professional plan for unlimited screenshots",
+        "description": "Popup menu"
+    },
+    "recording_title": {
+        "message": "Recording...",
+        "description": "Popup menu"
+    },
+    "pause_title": {
+        "message": "Paused",
+        "description": "Popup menu"
+    },
+    "embed_cam_btn": {
+        "message": "Embed Camera",
+        "description": "Popup menu"
+    },
+    "discard_btn": {
+        "message": "Discard",
+        "description": "Popup menu"
+    },
+    "pause_btn": {
+        "message": "Pause",
+        "description": "Popup menu"
+    },
+    "resume_btn": {
+        "message": "Resume",
+        "description": "Popup menu"
+    },
+    "drag_btn": {
+        "message": "Drag",
+        "description": "Popup menu"
+    },
+    "off_cam_btn": {
+        "message": "Turn Off Camera",
+        "description": "Popup menu"
+    },
+    "on_cam_btn": {
+        "message": "Turn On Camera",
+        "description": "Popup menu"
+    },
+    "off_mic_btn": {
+        "message": "Turn Off Microphone",
+        "description": "Popup menu"
+    },
+    "on_mic_btn": {
+        "message": "Turn On Microphone",
+        "description": "Popup menu"
+    },
+    "stop_btn": {
+        "message": "Stop",
+        "description": "Popup menu"
+    },
+    "prepare_record_tip": {
+        "message": "<p>Connecting to the server...</p>If the recording doesn't start after some time, click the Stop Sharing button at the bottom of your screen, check your network then retry.",
+        "description": "Popup menu"
+    },
+    "fullpage_capture_title": {
+        "message": "Full Page Capturing...",
+        "description": "Popup menu"
+    },
+    "fullpage_capture_tip": {
+        "message": "Please <span>do not scroll</span> or move your mouse pointer while capturing in order to get the best result.",
+        "description": "Popup menu"
+    },
+    "fullpage_capture_stop_tip": {
+        "message": "For very long pages or infinite scroll pages, you can end the capturing manually by clicking <a id='stop-entire-capture'>Stop</a>.",
+        "description": "Popup menu"
+    },
+    "warning": {
+        "message": "Warning",
+        "description": "Popup menu"
+    },
+    "discard_p": {
+        "message": "Discarded recording will be permanently deleted. Are you sure you want to discard this recording",
+        "description": "Popup menu"
+    },
+    "discard_p_no": {
+        "message": "No",
+        "description": "Popup menu"
+    },
+    "discard_p_yes": {
+        "message": "Yes, discard",
+        "description": "Popup menu"
+    },
+    "capture_btn_capture": {
+        "message": "Capture",
+        "description": "content"
+    },
+    "capture_btn_cancel": {
+        "message": "Cancel",
+        "description": "content"
+    },
+    "capture_btn_copy": {
+        "message": "Copy",
+        "description": "content"
+    },
+    "capture_btn_copy_tip": {
+        "message": "Copied to clipboard!",
+        "description": "content"
+    },
+    "vtoolbar_mouse_effect_btn": {
+        "message": "Mouse Pointer Effect",
+        "description": "content"
+    },
+    "vtoolbar_annotation_btn": {
+        "message": "Annotation Tools",
+        "description": "content"
+    },
+    "vtoolbar_remove_btn": {
+        "message": "Remove Annotation",
+        "description": "content"
+    },
+    "vtoolbar_pause_btn": {
+        "message": "Pause",
+        "description": "content"
+    },
+    "vtoolbar_resume_btn": {
+        "message": "Resume",
+        "description": "content"
+    },
+    "vtoolbar_discard_btn": {
+        "message": "Discard",
+        "description": "content"
+    },
+    "vtoolbar_stop_btn": {
+        "message": "Stop",
+        "description": "content"
+    },
+    "vtoolbar_mouse_default_btn": {
+        "message": "Default",
+        "description": "content"
+    },
+    "vtoolbar_highlight_mouse_btn": {
+        "message": "Highlight Mouse",
+        "description": "content"
+    },
+    "vtoolbar_highlight_click_btn": {
+        "message": "Highlight Click",
+        "description": "content"
+    },
+    "vtoolbar_spotlight_btn": {
+        "message": "Spotlight",
+        "description": "content"
+    },
+    "vtoolbar_freeline_btn": {
+        "message": "Free line",
+        "description": "content"
+    },
+    "vtoolbar_rect_btn": {
+        "message": "Rectangle",
+        "description": "content"
+    },
+    "vtoolbar_arrow_btn": {
+        "message": "Arrow",
+        "description": "content"
+    },
+    "vtoolbar_remove_single_btn": {
+        "message": "Remove one annotation at a time",
+        "description": "content"
+    },
+    "vtoolbar_remove_all_btn": {
+        "message": "Remove all annotations at once",
+        "description": "content"
+    },
+    "vtoolbar_collapse_btn": {
+        "message": "Collapse",
+        "description": "content"
+    },
+    "vtoolbar_expand_btn": {
+        "message": "Expand",
+        "description": "content"
+    },
+    "vtoolbar_blur_btn": {
+        "message": "Blur",
+        "description": "content"
+    },
+    "vtoolbar_pen_btn": {
+        "message": "Pen",
+        "description": "content"
+    },
+    "vtoolbar_ellipse_btn": {
+        "message": "Ellipse",
+        "description": "content"
+    },
+    "vtoolbar_text_btn": {
+        "message": "Text",
+        "description": "content"
+    },
+    "vtoolbar_undo_btn": {
+        "message": "Undo",
+        "description": "content"
+    },
+    "vtoolbar_callout_btn": {
+        "message": "Callout",
+        "description": "content"
+    },
+    "vtoolbar_step_btn": {
+        "message": "Step",
+        "description": "content"
+    },
+    "vtoolbar_emoji_btn": {
+        "message": "Emoji",
+        "description": "content"
+    },
+    "vtoolbar_image_btn": {
+        "message": "Image",
+        "description": "content"
+    },
+    "vtoolbar_clear_btn": {
+        "message": "Clear",
+        "description": "content"
+    },
+    "capture_location_title": {
+        "message": "Save image to",
+        "description": "Popup menu"
+    },
+    "c_section_title": {
+        "message": "Capture Preferences",
+        "description": "options"
+    },
+    "c_s_title": {
+        "message": "Capture Shortcuts",
+        "description": "options"
+    },
+    "c_s_visible": {
+        "message": "Visible Part",
+        "description": "options"
+    },
+    "c_s_selected": {
+        "message": "Selected Area",
+        "description": "options"
+    },
+    "c_s_fullpage": {
+        "message": "Full Page",
+        "description": "options"
+    },
+    "v_delay": {
+        "message": "Visible Part after Delay",
+        "description": "options"
+    },
+    "d_delay": {
+        "message": "Entire Screen & App Window after Delay",
+        "description": "options"
+    },
+    "d_delay_never": {
+        "message": "Never",
+        "description": "options"
+    },
+    "s_a": {
+        "message": "Skip Annotating",
+        "description": "options"
+    },
+    "s_a_n": {
+        "message": "Never",
+        "description": "options"
+    },
+    "s_a_a": {
+        "message": "Always",
+        "description": "options"
+    },
+    "s_a_o": {
+        "message": "Only When Capturing Full Page",
+        "description": "options"
+    },
+    "r_section_title": {
+        "message": "Record Preferences",
+        "description": "options"
+    },
+    "r_c": {
+        "message": "Countdown Timer",
+        "description": "options"
+    },
+    "r_c_desc": {
+        "message": "Recording will start after the countdown",
+        "description": "options"
+    },
+    "r_r_mic": {
+        "message": "Allow reminder when Microphone is turned off. ",
+        "description": "options"
+    },
+    "s_section_title": {
+        "message": "Saving Preferences",
+        "description": "options"
+    },
+    "d_a": {
+        "message": "Download Screenshot As",
+        "description": "options"
+    },
+    "get_link_google": {
+        "message": "Always get shareable links for screenshots uploaded to Google Drive",
+        "description": "options"
+    },
+    "save_as": {
+        "message": "Ask where to save each file before downloading",
+        "description": "options"
+    },
+    "save_as_desc": {
+        "message": "Note: to use this feature, you need to Allow the extension to manage Downloads when permission request window pops up. And only when this option is turned on, can you specify default subfolder to save screenshots to your local disk. Defaults to the Downloads folder if you don’t specify a subfolder.",
+        "description": "options"
+    },
+    "add_info": {
+        "message": "Add Date and URL at the top of a screenshot",
+        "description": "options"
+    },
+    "m_section_title": {
+        "message": "More Settings",
+        "description": "options"
+    },
+    "default_tab_title": {
+        "message": "Set popup menu's default tab to",
+        "description": "options"
+    },
+    "default_tab_c": {
+        "message": "Capture",
+        "description": "options"
+    },
+    "default_tab_r": {
+        "message": "Record",
+        "description": "options"
+    },
+    "default_tab_d": {
+        "message": "Last used",
+        "description": "options"
+    },
+    "dark_mode": {
+        "message": "Turn on dark mode for the extension's popup menu",
+        "description": "options"
+    },
+    "gmail_icon": {
+        "message": "Show the extension icon in the compose window of Gmail in order to add a screenshot",
+        "description": "options"
+    },
+    "resize_retina": {
+        "message": "Resize a screenshot to 50% of its original size for Retina screen",
+        "description": "options"
+    },
+    "play_video": {
+        "message": "Play video on the page",
+        "description": "options"
+    },
+    "play_video_desc": {
+        "message": "Turning on this option allows you to watch any Awesome Screenshot video with a shareable link right on the page you are on, in any of the following platforms, without jumping to a new tab. You can manage your preferences for these platforms by selecting or deselecting the checkbox besides their names.",
+        "description": "options"
+    }
+}

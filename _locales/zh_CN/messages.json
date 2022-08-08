@@ -1,0 +1,482 @@
+﻿{
+    "extName": {
+        "message": "Awesome Screenshot 截图录屏",
+        "description": "Extension name."
+    },
+    "extDesc": {
+        "message": "用于远程工作最佳的屏幕录制、屏幕截图和编辑工具。",
+        "description": "Extension description."
+    },
+    "visible": {
+        "message": "可视区域",
+        "description": "Popup menu"
+    },
+    "selected": {
+        "message": "选择区域",
+        "description": "Popup menu"
+    },
+    "entire": {
+        "message": "整个页面",
+        "description": "Popup menu"
+    },
+    "delay": {
+        "message": "延迟截取可视区域",
+        "description": "Popup menu"
+    },
+    "upload": {
+        "message": "标注本地或剪贴板图片",
+        "description": "Popup menu"
+    },
+    "desktop": {
+        "message": "整个屏幕或应用窗口",
+        "description": "Popup menu"
+    },
+    "tab_title_record": {
+        "message": "录屏",
+        "description": "Popup menu"
+    },
+    "tab_title_capture": {
+        "message": "截图",
+        "description": "Popup menu"
+    },
+    "record_desktop": {
+        "message": "桌面",
+        "description": "Popup menu"
+    },
+    "record_tab": {
+        "message": "当前标签页",
+        "description": "Popup menu"
+    },
+    "custom_record": {
+        "message": "区域录制<br>(当前标签页)",
+        "description": "Popup menu"
+    },
+    "record_cam": {
+        "message": "摄像头",
+        "description": "Popup menu"
+    },
+    "record_location_title": {
+        "message": "把视频存储到",
+        "description": "Popup menu"
+    },
+    "record_location_cloud": {
+        "message": "云端",
+        "description": "Popup menu"
+    },
+    "record_location_local": {
+        "message": "本地",
+        "description": "Popup menu"
+    },
+    "record_mic_title": {
+        "message": "麦克风",
+        "description": "Popup menu"
+    },
+    "grant_access": {
+        "message": "开启权限",
+        "description": "Popup menu"
+    },
+    "record_camera_title": {
+        "message": "摄像头",
+        "description": "Popup menu"
+    },
+    "record_camera_only_title": {
+        "message": "摄像头",
+        "description": "Popup menu"
+    },
+    "record_resolution_title": {
+        "message": "最大分辨率",
+        "description": "Popup menu"
+    },
+    "record_tab_sound_title": {
+        "message": "标签页声音",
+        "description": "Popup menu"
+    },
+    "record_toolbar_title": {
+        "message": "显示标注工具条",
+        "description": "Popup menu"
+    },
+    "ctl_bar_title": {
+        "message": "控制栏",
+        "description": "Popup menu"
+    },
+    "hide_ctl_bar": {
+        "message": "隐藏控制栏",
+        "description": "Popup menu"
+    },
+    "show_ctl_bar": {
+        "message": "显示控制栏",
+        "description": "Popup menu"
+    },
+    "auto_tab_tip": {
+        "message": "为了避免录制视频或会议出现回音，已帮您自动切换到录制标签页并关闭了麦克风，若有需要，请开启麦克风。",
+        "description": "Popup menu"
+    },
+    "video_cloud_tip": {
+        "message": "保存到云端,快速一键分享",
+        "description": "Popup menu"
+    },
+    "capture_cloud_tip": {
+        "message": "保存到云端，可同时保存截图以及其链接",
+        "description": "Popup menu"
+    },
+    "minu_limit_tip": {
+        "message": "(5分钟限制)",
+        "description": "Popup menu"
+    },
+    "record_start": {
+        "message": "开始录制",
+        "description": "Popup menu"
+    },
+    "record_local_tip": {
+        "message": "每个视频限制<b>5分钟</b>, <a target='_blank' href='https://www.awesomescreenshot.com/pricing?from=extMenu5min' >升级解除时长限制</a >。",
+        "description": "Popup menu"
+    },
+    "record_try_tip": {
+        "message": "前20个视频享会员功能. <a target='_blank' href='https://www.awesomescreenshot.com/pricing?from=aws-upgrade' >升级</a > 或 <a target='_blank' href='https://www.awesomescreenshot.com/invite?from=aws-video'>邀请</a> 朋友继续会员权益",
+        "description": "Popup menu"
+    },
+    "record_try_tip_image": {
+        "message": "<a target='_blank' href='https://www.awesomescreenshot.com/pricing?from=aws-upgrade' >升级</a > or <a target='_blank' href='https://www.awesomescreenshot.com/invite?from=aws-imge'>邀请</a> 朋友继续会员权益",
+        "description": "Popup menu"
+    },
+    "recording_title": {
+        "message": "录制中...",
+        "description": "Popup menu"
+    },
+    "pause_title": {
+        "message": "暂停",
+        "description": "Popup menu"
+    },
+    "embed_cam_btn": {
+        "message": "加入摄像头",
+        "description": "Popup menu"
+    },
+    "discard_btn": {
+        "message": "放弃",
+        "description": "Popup menu"
+    },
+    "pause_btn": {
+        "message": "暂停",
+        "description": "Popup menu"
+    },
+    "resume_btn": {
+        "message": "继续",
+        "description": "Popup menu"
+    },
+    "drag_btn": {
+        "message": "拖拽",
+        "description": "Popup menu"
+    },
+    "off_cam_btn": {
+        "message": "关闭相机",
+        "description": "Popup menu"
+    },
+    "on_cam_btn": {
+        "message": "打开相机",
+        "description": "Popup menu"
+    },
+    "off_mic_btn": {
+        "message": "关闭麦克风",
+        "description": "Popup menu"
+    },
+    "on_mic_btn": {
+        "message": "打开麦克风",
+        "description": "Popup menu"
+    },
+    "stop_btn": {
+        "message": "停止录制",
+        "description": "Popup menu"
+    },
+    "prepare_record_tip": {
+        "message": "<p>正在连接服务器......</p>如果较长时间后录制仍未开始，请点击屏幕底部的「停止共享」按钮，检查网络设置并重试",
+        "description": "Popup menu"
+    },
+    "fullpage_capture_title": {
+        "message": "正在截取整个页面...",
+        "description": "Popup menu"
+    },
+    "fullpage_capture_tip": {
+        "message": "为了保证最好的截图效果，请不要在截图的时候<span>滚动页面</span> 或者移动鼠标指针。",
+        "description": "Popup menu"
+    },
+    "fullpage_capture_stop_tip": {
+        "message": "对于非常长或者可以无限滚动的页面，你可以点击<a id='stop-entire-capture'>这里</a>手动停止截图",
+        "description": "Popup menu"
+    },
+    "warning": {
+        "message": "请注意",
+        "description": "Popup menu"
+    },
+    "discard_p": {
+        "message": "放弃意味着已录制的部分将被永久删除。你确定要放弃吗？",
+        "description": "Popup menu"
+    },
+    "discard_p_no": {
+        "message": "我再想想",
+        "description": "Popup menu"
+    },
+    "discard_p_yes": {
+        "message": "确定放弃",
+        "description": "Popup menu"
+    },
+    "capture_btn_capture": {
+        "message": "截图",
+        "description": "content"
+    },
+    "capture_btn_cancel": {
+        "message": "取消",
+        "description": "content"
+    },
+    "capture_btn_copy": {
+        "message": "复制",
+        "description": "content"
+    },
+    "capture_btn_copy_tip": {
+        "message": "复制成功！",
+        "description": "content"
+    },
+    "vtoolbar_mouse_effect_btn": {
+        "message": "鼠标指针样式",
+        "description": "content"
+    },
+    "vtoolbar_annotation_btn": {
+        "message": "标注工具",
+        "description": "content"
+    },
+    "vtoolbar_remove_btn": {
+        "message": "移除标注",
+        "description": "content"
+    },
+    "vtoolbar_pause_btn": {
+        "message": "暂停",
+        "description": "content"
+    },
+    "vtoolbar_resume_btn": {
+        "message": "继续",
+        "description": "content"
+    },
+    "vtoolbar_discard_btn": {
+        "message": "放弃",
+        "description": "content"
+    },
+    "vtoolbar_stop_btn": {
+        "message": "停止",
+        "description": "content"
+    },
+    "vtoolbar_mouse_default_btn": {
+        "message": "默认",
+        "description": "content"
+    },
+    "vtoolbar_highlight_mouse_btn": {
+        "message": "高亮指针",
+        "description": "content"
+    },
+    "vtoolbar_highlight_click_btn": {
+        "message": "点击动效",
+        "description": "content"
+    },
+    "vtoolbar_spotlight_btn": {
+        "message": "聚光灯",
+        "description": "content"
+    },
+    "vtoolbar_freeline_btn": {
+        "message": "线条",
+        "description": "content"
+    },
+    "vtoolbar_rect_btn": {
+        "message": "矩形框",
+        "description": "content"
+    },
+    "vtoolbar_arrow_btn": {
+        "message": "箭头",
+        "description": "content"
+    },
+    "vtoolbar_remove_single_btn": {
+        "message": "移除单个标注",
+        "description": "content"
+    },
+    "vtoolbar_remove_all_btn": {
+        "message": "移除所有标注",
+        "description": "content"
+    },
+    "vtoolbar_collapse_btn": {
+        "message": "收起",
+        "description": "content"
+    },
+    "vtoolbar_expand_btn": {
+        "message": "展开",
+        "description": "content"
+    },
+    "vtoolbar_blur_btn": {
+        "message": "模糊",
+        "description": "content"
+    },
+    "vtoolbar_pen_btn": {
+        "message": "笔",
+        "description": "content"
+    },
+    "vtoolbar_ellipse_btn": {
+        "message": "椭圆",
+        "description": "content"
+    },
+    "vtoolbar_text_btn": {
+        "message": "文字",
+        "description": "content"
+    },
+    "vtoolbar_undo_btn": {
+        "message": "撤销",
+        "description": "content"
+    },
+    "vtoolbar_callout_btn": {
+        "message": "标注",
+        "description": "content"
+    },
+    "vtoolbar_step_btn": {
+        "message": "步骤",
+        "description": "content"
+    },
+    "vtoolbar_emoji_btn": {
+        "message": "表情",
+        "description": "content"
+    },
+    "vtoolbar_image_btn": {
+        "message": "图片",
+        "description": "content"
+    },
+    "vtoolbar_clear_btn": {
+        "message": "清除",
+        "description": "content"
+    },
+    "capture_location_title": {
+        "message": "把截屏存储到",
+        "description": "Popup menu"
+    },
+    "c_section_title": {
+        "message": "截屏偏好设置",
+        "description": "options"
+    },
+    "c_s_title": {
+        "message": "截屏快捷键设置",
+        "description": "options"
+    },
+    "c_s_visible": {
+        "message": "可视区域",
+        "description": "options"
+    },
+    "c_s_selected": {
+        "message": "选择区域",
+        "description": "options"
+    },
+    "c_s_fullpage": {
+        "message": "整个页面",
+        "description": "options"
+    },
+    "v_delay": {
+        "message": "延迟截取可视部分时的延迟时长",
+        "description": "options"
+    },
+    "d_delay": {
+        "message": "延迟截取整个屏幕或应用窗口时的延迟时长",
+        "description": "options"
+    },
+    "d_delay_never": {
+        "message": "从不",
+        "description": "options"
+    },
+    "s_a": {
+        "message": "跳过截图标注",
+        "description": "options"
+    },
+    "s_a_n": {
+        "message": "从不",
+        "description": "options"
+    },
+    "s_a_a": {
+        "message": "总是",
+        "description": "options"
+    },
+    "s_a_o": {
+        "message": "仅当截取整个页面时",
+        "description": "options"
+    },
+    "r_section_title": {
+        "message": "录屏设置",
+        "description": "options"
+    },
+    "r_c": {
+        "message": "录屏倒计时设置",
+        "description": "options"
+    },
+    "r_c_desc": {
+        "message": "",
+        "description": "options"
+    },
+    "r_r_mic": {
+        "message": "当麦克风处于关闭状态时允许提醒",
+        "description": "options"
+    },
+    "s_section_title": {
+        "message": "保存偏好设置",
+        "description": "options"
+    },
+    "d_a": {
+        "message": "设置图片默认保存格式为",
+        "description": "options"
+    },
+    "get_link_google": {
+        "message": "上传图片到 Google Drive 时默认开启获取分享链接",
+        "description": "options"
+    },
+    "save_as": {
+        "message": "下载前询问每个文件的保存位置",
+        "description": "options"
+    },
+    "save_as_desc": {
+        "message": "注意：如需每次手动选择保存位置，请允许插件访问和管理 Downloads 文件夹。只有当这个选项开启时，才支持设置把文件存到 Downloads 文件夹里的一个子文件夹，否则默认存到 Downloads 文件夹。",
+        "description": "options"
+    },
+    "add_info": {
+        "message": "在图片顶部附上截图日期及网页地址",
+        "description": "options"
+    },
+    "m_section_title": {
+        "message": "更多偏好设置",
+        "description": "options"
+    },
+    "default_tab_title": {
+        "message": "插件弹窗的默认选中菜单设置为",
+        "description": "options"
+    },
+    "default_tab_c": {
+        "message": "截图",
+        "description": "options"
+    },
+    "default_tab_r": {
+        "message": "录屏",
+        "description": "options"
+    },
+    "default_tab_d": {
+        "message": "记住上次",
+        "description": "options"
+    },
+    "dark_mode": {
+        "message": "插件弹窗设置为深色模式",
+        "description": "options"
+    },
+    "gmail_icon": {
+        "message": "在 Gmail 的新邮件窗口展示插件图标以便插入截图到邮件正文中",
+        "description": "options"
+    },
+    "resize_retina": {
+        "message": "Retina 屏幕截图默认将尺寸调整为原图的50%",
+        "description": "options"
+    },
+    "play_video": {
+        "message": "在当前页面上播放视频",
+        "description": "options"
+    },
+    "play_video_desc": {
+        "message": "启用此选项后，您可以在以下任何平台内，在您所停留的的页面上播放任意通过共享链接被分享的 Awesome Screenshot视频，而无需跳转新标签页。您可以通过选中或取消选中平台名称旁边的复选框来管理这些平台的设置。",
+        "description": "options"
+    }
+}
