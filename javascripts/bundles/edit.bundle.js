@@ -16087,7 +16087,7 @@
                           ot({ method: "GET", url: "/user/info" }).then(
                             function (t) {
                               e.setState({
-                                permissions: t.permissions,
+                                permissions: Object.keys(t.permissions).map(key => ({ [key]: true })).reduce((currVl, prevVl) => ({ ...prevVl, ...currVl }), {}),
                                 currentPlan: t.premium.currentPlan,
                                 counts: t.counts,
                                 avatarURL: t.info.avatarURL,
