@@ -5,7 +5,7 @@ var Bg = chrome.extension.getBackgroundPage(),
   meter = null,
   rafID = null,
   volumeStream = null,
-  premiumLevel = 0,
+  premiumLevel = 4,
   newPremium = !1,
   isAllowVa = null,
   allowUploadImage = !1,
@@ -169,7 +169,7 @@ function updateCtlBarUI(e) {
           var i = decodeURI(e[o].value);
         else if ("screenshot_personal_type" === e[o].name) var t = e[o].value;
         else if ("screenshot_personal_premium_level" === e[o].name)
-          var c = e[o].value;
+          var c = 4;
         else if ("screenshot_personal_permission" === e[o].name)
           e[o].value.split(",");
         else if ("screenshot_personal_uid" === e[o].name) var n = e[o].value;
@@ -208,7 +208,7 @@ function updateCtlBarUI(e) {
               $("#loading").addClass("active"),
               $.ajax({ method: "GET", url: baseURL + "/api/v1/user/einfo" })
                 .done(function (e) {
-                  (premiumLevel = parseInt(e.data.premiumLevel)),
+                  (premiumLevel = 4),
                     (Bg.premiumLevel_ = premiumLevel),
                     (newPremium = e.data.newPremium),
                     (allowUploadImage = e.data.permission.allowUploadImage),
